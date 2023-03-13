@@ -1,0 +1,16 @@
+.leader-button:hover {
+    rotate: -3deg;
+    scale: 1.5 1.5;
+}
+
+.leader-button {
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/UI/ProFontWindows%20Nerd%20Font%20Complete.ttf?fileID=12800000&guid=504daa54fb88e5643ab72286af632b27&type=3#ProFontWindows Nerd Font Complete');
+    font-size: 220%;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 255);
+}

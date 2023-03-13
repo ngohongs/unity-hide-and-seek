@@ -1,0 +1,41 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/SettingsStyle.uss?fileID=7433441132597879392&amp;guid=ec7d5b902a970f94c9b2001c5538febe&amp;type=3#SettingsStyle" />
+    <ui:VisualElement style="width: 100%; height: 100%; -unity-text-align: upper-left; justify-content: space-around;">
+        <ui:VisualElement style="align-items: center; -unity-text-align: upper-left; justify-content: flex-start;">
+            <ui:VisualElement style="width: 80%; height: 100%; margin-right: 0; padding-left: 2%; padding-right: 2%; padding-top: 2%; padding-bottom: 2%; background-color: rgba(0, 0, 0, 0.82); align-items: stretch;">
+                <ui:Label text="Graphics" display-tooltip-when-elided="true" name="graphics-label" class="section" />
+                <ui:DropdownField label="Resolution" index="-1" focusable="false" name="resolution" class="element" />
+                <ui:Label text="Sound" display-tooltip-when-elided="true" name="sound-label" class="section" />
+                <ui:Slider picking-mode="Ignore" label="Master Volume" value="42" high-value="100" name="volume" low-value="0.0001" class="element" style="word-spacing: 0; -unity-text-align: middle-left; -unity-font-style: normal;" />
+                <ui:Label text="Controls" display-tooltip-when-elided="true" name="contorls-label" class="section" />
+                <ui:VisualElement name="control-forward" style="flex-direction: row; flex-wrap: wrap; padding-left: 4px; -unity-text-align: middle-center; justify-content: space-between; padding-right: 4%;">
+                    <ui:Label text="Forward" display-tooltip-when-elided="true" class="element" />
+                    <ui:Button display-tooltip-when-elided="true" name="forward" text="W" class="control-element" style="width: 15%; -unity-font: url(&apos;project://database/Assets/UI/ProFontWindows%20Nerd%20Font%20Complete.ttf?fileID=12800000&amp;guid=504daa54fb88e5643ab72286af632b27&amp;type=3#ProFontWindows Nerd Font Complete&apos;);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="control-backward" style="flex-direction: row; flex-wrap: wrap; padding-left: 4px; -unity-text-align: middle-center; justify-content: space-between; padding-right: 4%;">
+                    <ui:Label text="Backward" display-tooltip-when-elided="true" class="element" />
+                    <ui:Button display-tooltip-when-elided="true" name="backward" text="S" class="control-element" style="width: 15%;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="control-left" style="flex-direction: row; flex-wrap: wrap; padding-left: 4px; -unity-text-align: middle-center; justify-content: space-between; padding-right: 4%;">
+                    <ui:Label text="Left" display-tooltip-when-elided="true" class="element" />
+                    <ui:Button display-tooltip-when-elided="true" name="left" text="A" class="control-element" style="width: 15%;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="control-right" style="flex-direction: row; flex-wrap: wrap; padding-left: 4px; -unity-text-align: middle-center; justify-content: space-between; padding-right: 4%;">
+                    <ui:Label text="Right" display-tooltip-when-elided="true" class="element" />
+                    <ui:Button display-tooltip-when-elided="true" name="right" text="D" binding-path="Space" class="control-element" style="width: 15%;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="control-jump" style="flex-direction: row; flex-wrap: wrap; padding-left: 4px; -unity-text-align: middle-center; justify-content: space-between; padding-right: 4%;">
+                    <ui:Label text="Jump" display-tooltip-when-elided="true" class="element" />
+                    <ui:Button display-tooltip-when-elided="true" name="jump" text="Space" class="control-element" style="width: 15%; height: auto;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="control-roll" style="flex-direction: row; flex-wrap: wrap; padding-left: 4px; -unity-text-align: middle-center; justify-content: space-between; padding-right: 4%;">
+                    <ui:Label text="Roll" display-tooltip-when-elided="true" class="element" />
+                    <ui:Button display-tooltip-when-elided="true" name="roll" text="F" class="control-element" style="width: 15%;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="button-end" style="flex-direction: row; flex-wrap: wrap; align-items: center; -unity-text-align: upper-center; justify-content: space-around; margin-left: 1%; margin-right: 1%; margin-top: 1%; margin-bottom: 1%;">
+                    <ui:Button text="Back" display-tooltip-when-elided="true" name="back" class="button-end" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

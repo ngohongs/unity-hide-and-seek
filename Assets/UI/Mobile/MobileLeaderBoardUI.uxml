@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Mobile/MobileLeaderBoardStyle.uss?fileID=7433441132597879392&amp;guid=ddcc0b9f22b891c4eac49d3b9f0e4ad5&amp;type=3#MobileLeaderBoardStyle" />
+    <ui:VisualElement style="width: 60%; height: 80%; left: 20%; top: 10%; background-color: rgba(0, 0, 0, 0.82); justify-content: space-around;">
+        <ui:Label text="Leaderboard" display-tooltip-when-elided="true" name="leaderboard" style="font-size: 10px; -unity-font-definition: none; -unity-font: url(&apos;project://database/Assets/UI/ProFontWindows%20Nerd%20Font%20Complete.ttf?fileID=12800000&amp;guid=504daa54fb88e5643ab72286af632b27&amp;type=3#ProFontWindows Nerd Font Complete&apos;); -unity-text-align: lower-center; height: 10%; color: rgb(255, 255, 255); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+        <ui:ListView focusable="true" name="scores" virtualization-method="DynamicHeight" horizontal-scrolling="false" selection-type="None" fixed-item-height="35" show-border="false" style="width: 80%; height: 59%; left: 10%; top: auto; background-color: rgba(26, 26, 26, 0.76); color: rgb(255, 255, 255); font-size: 8px;" />
+        <ui:VisualElement name="buttons" style="flex-direction: row; height: 8%; width: 100%; -unity-text-align: middle-center; align-items: stretch; justify-content: space-around; top: auto;">
+            <ui:Button text="Back" display-tooltip-when-elided="true" name="back" class="leader-button" />
+            <ui:Button text="Reset" display-tooltip-when-elided="true" name="reset" class="leader-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

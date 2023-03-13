@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/PC/MainMenu.uss?fileID=7433441132597879392&amp;guid=f9f45ab050b80b849b8290c881add4c0&amp;type=3#MainMenu" />
+    <ui:VisualElement name="screen" style="width: 100%; height: 100%; align-items: center; justify-content: space-around; color: rgb(0, 0, 0);">
+        <ui:VisualElement name="menu" style="align-items: center; justify-content: space-around; flex-wrap: wrap; width: 30%; min-width: auto; min-height: auto; height: 50%; background-color: rgba(0, 0, 0, 0.82);">
+            <ui:Label text="Time" display-tooltip-when-elided="true" name="time" class="time-label" style="color: rgb(255, 129, 0); -unity-text-align: middle-center; font-size: 46%;" />
+            <ui:TextField picking-mode="Ignore" text="Enter your name here" name="name" style="height: 15%; width: 90%; -unity-font-definition: none; -unity-font: url(&apos;project://database/Assets/UI/ProFontWindows%20Nerd%20Font%20Complete.ttf?fileID=12800000&amp;guid=504daa54fb88e5643ab72286af632b27&amp;type=3#ProFontWindows Nerd Font Complete&apos;); font-size: 50%;" />
+            <ui:Button text="Restart" display-tooltip-when-elided="true" name="restart" class="button" />
+            <ui:Button text="Menu" display-tooltip-when-elided="true" name="exit" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

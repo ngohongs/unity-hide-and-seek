@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/LeaderBoardStyle.uss?fileID=7433441132597879392&amp;guid=f715a1aabe5e1724aa0a5bf542651b0e&amp;type=3#LeaderBoardStyle" />
+    <ui:VisualElement style="width: 60%; height: 80%; left: 20%; top: 10%; background-color: rgba(0, 0, 0, 0.82);">
+        <ui:Label text="Leaderboard" display-tooltip-when-elided="true" name="leaderboard" style="font-size: 46%; -unity-font-definition: none; -unity-font: url(&apos;project://database/Assets/UI/ProFontWindows%20Nerd%20Font%20Complete.ttf?fileID=12800000&amp;guid=504daa54fb88e5643ab72286af632b27&amp;type=3#ProFontWindows Nerd Font Complete&apos;); -unity-text-align: lower-center; height: 10%; color: rgb(255, 255, 255);" />
+        <ui:ListView focusable="true" name="scores" virtualization-method="DynamicHeight" horizontal-scrolling="false" selection-type="None" fixed-item-height="50" style="width: 80%; height: 70%; left: 10%; top: 5%; background-color: rgba(26, 26, 26, 0.76); color: rgb(255, 255, 255);" />
+        <ui:VisualElement name="buttons" style="flex-direction: row; height: 8%; width: 100%; -unity-text-align: middle-center; align-items: stretch; justify-content: space-around; top: 8%;">
+            <ui:Button text="Back" display-tooltip-when-elided="true" name="back" class="leader-button" />
+            <ui:Button text="Reset" display-tooltip-when-elided="true" name="reset" class="leader-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

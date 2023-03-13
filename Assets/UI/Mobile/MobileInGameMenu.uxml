@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Mobile/MobileMainMenu.uss?fileID=7433441132597879392&amp;guid=e5a92bb27cc61e040bdbffb5545aeefa&amp;type=3#MobileMainMenu" />
+    <ui:VisualElement name="screen" style="width: 100%; height: 100%; align-items: center; justify-content: space-around;">
+        <ui:VisualElement name="menu" style="align-items: center; justify-content: space-around; flex-wrap: wrap; width: 30%; min-width: auto; min-height: auto; height: 50%; background-color: rgba(0, 0, 0, 0.82);">
+            <ui:Button text="Resume" display-tooltip-when-elided="true" name="resume" class="button" />
+            <ui:Button text="Restart" display-tooltip-when-elided="true" name="restart" class="button" />
+            <ui:Button text="Menu" display-tooltip-when-elided="true" name="exit" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
