@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5647AEDE-A1AC-6B7E-2DF0-9CE154328CF7}</ProjectGuid>
+    <ProjectGuid>{5652A05F-8B36-880B-E0C8-D36D65CAE906}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -912,11 +912,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{9E93B65E-6189-96B2-1122-6895178F2177}</Project>
+      <Project>{F2DCAD57-5418-EBB0-DB3D-3833B29E2455}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="VirtualButtonsScripts.csproj">
-      <Project>{2BFD3B02-2D17-2DFC-3ECF-8CC5729FC380}</Project>
+      <Project>{F79B7005-E9E1-FD56-F185-DE4473789D5F}</Project>
       <Name>VirtualButtonsScripts</Name>
     </ProjectReference>
   </ItemGroup>

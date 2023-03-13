@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9E93B65E-6189-96B2-1122-6895178F2177}</ProjectGuid>
+    <ProjectGuid>{F2DCAD57-5418-EBB0-DB3D-3833B29E2455}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -954,7 +954,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="VirtualButtonsScripts.csproj">
-      <Project>{2BFD3B02-2D17-2DFC-3ECF-8CC5729FC380}</Project>
+      <Project>{F79B7005-E9E1-FD56-F185-DE4473789D5F}</Project>
       <Name>VirtualButtonsScripts</Name>
     </ProjectReference>
   </ItemGroup>
