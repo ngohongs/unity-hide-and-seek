@@ -2,6 +2,8 @@
 
 A 3D hide and seek game set in a dark room where players must catch an AI agent as quickly as possible. Features custom pixel art rendering effects and intelligent enemy AI behavior.
 
+https://github.com/user-attachments/assets/5e0ed02e-b696-4009-be32-ab58d2d2d3aa
+
 ## 🎮 Game Overview
 
 Hide and seek but in a dark room - the player tries to catch the agent as fast as possible. Each catch time is stored in the leaderboard. To catch the agent, the player needs to collide with them.
